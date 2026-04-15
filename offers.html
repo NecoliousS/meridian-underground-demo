@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers | Meridian Underground Music</title>
+    <meta name="description" content="Current deals, trade-in offers, and special promotions at Meridian Underground Music.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">MUM</a>
+            <button class="nav-toggle" onclick="toggleNav()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="videos.html">Media</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="offers.html" class="active">Deals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Special Offers</h1>
+            <p>Deals, trades, and ways to save</p>
+        </div>
+    </header>
+
+    <section class="offers-section">
+        <div class="container">
+            <div class="offer-grid">
+                <div class="offer-card hot">
+                    <div class="offer-badge">HOT DEAL</div>
+                    <h2>Trade-In Bonus</h2>
+                    <div class="offer-details">
+                        <p class="deal-headline">Get 20% More Store Credit</p>
+                        <p>Trade in your used gear this month and get an extra 20% in store credit toward new purchases.</p>
+                        <ul>
+                            <li>✓ Guitars and basses</li>
+                            <li>✓ Amplifiers and pedals</li>
+                            <li>✓ Vinyl records</li>
+                            <li>✓ Drum hardware</li>
+                        </ul>
+                        <p class="terms">Valid through April 30, 2026</p>
+                    </div>
+                </div>
+
+                <div class="offer-card">
+                    <h2>Student Discount</h2>
+                    <div class="offer-details">
+                        <p class="deal-headline">10% Off Everything</p>
+                        <p>Show your valid student ID and save on:</p>
+                        <ul>
+                            <li>✓ All instruments</li>
+                            <li>✓ Accessories and strings</li>
+                            <li>✓ Sheet music and books</li>
+                        </ul>
+                        <p class="terms">Valid ID required. Excludes vintage and sale items.</p>
+                    </div>
+                </div>
+
+                <div class="offer-card">
+                    <h2>Vinyl Membership</h2>
+                    <div class="offer-details">
+                        <p class="deal-headline">$9.99/month</p>
+                        <p>Join the club and get:</p>
+                        <ul>
+                            <li>✓ 15% off all vinyl</li>
+                            <li>✓ Early access to new releases</li>
+                            <li>✓ Free Record Store Day ticket</li>
+                            <li>✓ Monthly members-only vinyl draw</li>
+                        </ul>
+                        <p class="terms">Cancel anytime. In-store sign up only.</p>
+                    </div>
+                </div>
+
+                <div class="offer-card">
+                    <h2>Lesson Package</h2>
+                    <div class="offer-details">
+                        <p class="deal-headline">4 Lessons for $120</p>
+                        <p>Book a month of guitar, bass, or drum lessons:</p>
+                        <ul>
+                            <li>✓ 30-minute private sessions</li>
+                            <li>✓ All skill levels welcome</li>
+                            <li>✓ Flexible scheduling</li>
+                            <li>✓ Free practice materials</li>
+                        </ul>
+                        <p class="terms">New students only. Must book first lesson within 30 days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Get VIP Deals</h2>
+            <p>Subscribe for exclusive offers and first access to sales.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+            <p class="form-note">Demo form - no data collected</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>This Demo Was Built in One Afternoon</h2>
+            <p class="highlight">Imagine what we could do together.</p>
+            <div class="contact-info-footer">
+                <a href="tel:718-541-0794" class="contact-item">📞 (718) 541-0794</a>
+                <a href="mailto:Necolious23@gmail.com" class="contact-item">✉️ Necolious23@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Meridian Underground Music Demo. Built by Necolious Shaw.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
