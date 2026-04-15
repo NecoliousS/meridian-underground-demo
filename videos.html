@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media | Meridian Underground Music</title>
+    <meta name="description" content="Videos, photos, and media from Meridian Underground Music events and performances.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">MUM</a>
+            <button class="nav-toggle" onclick="toggleNav()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="videos.html" class="active">Media</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="offers.html">Deals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Media Gallery</h1>
+            <p>Videos, photos, and memories from the shop</p>
+        </div>
+    </header>
+
+    <section class="media-section">
+        <div class="container">
+            <h2>Performance Videos</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="play-btn">▶</div>
+                        <p>In-Store: The Valley (Live)</p>
+                    </div>
+                    <p class="video-caption">January 2026 - EP Release Show</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="play-btn">▶</div>
+                        <p>Open Mic Highlights</p>
+                    </div>
+                    <p class="video-caption">Best moments from March 2026</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="play-btn">▶</div>
+                        <p>Record Store Day 2025</p>
+                    </div>
+                    <p class="video-caption">Crowd and culture recap</p>
+                </div>
+            </div>
+            <p class="media-note">🎥 <strong>Note:</strong> This demo uses placeholders. In the full version, these would be embedded YouTube/Vimeo players or self-hosted HTML5 videos.</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="photo-grid">
+                <div class="photo-item placeholder-img">[Store Front]</div>
+                <div class="photo-item placeholder-img">[Vinyl Collection]</div>
+                <div class="photo-item placeholder-img">[Live Performance]</div>
+                <div class="photo-item placeholder-img">[Guitar Wall]</div>
+                <div class="photo-item placeholder-img">[Customers]</div>
+                <div class="photo-item placeholder-img">[Event Crowd]</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>This Demo Was Built in One Afternoon</h2>
+            <p class="highlight">Imagine what we could do together.</p>
+            <div class="contact-info-footer">
+                <a href="tel:718-541-0794" class="contact-item">📞 (718) 541-0794</a>
+                <a href="mailto:Necolious23@gmail.com" class="contact-item">✉️ Necolious23@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Meridian Underground Music Demo. Built by Necolious Shaw.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
