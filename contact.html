@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Meridian Underground Music</title>
+    <meta name="description" content="Contact Meridian Underground Music. Find us at 2220 8th St, Meridian, MS.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">MUM</a>
+            <button class="nav-toggle" onclick="toggleNav()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="videos.html">Media</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="offers.html">Deals</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Visit us, call us, or send a message</p>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-block">
+                    <h2>Visit the Shop</h2>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <p><strong>Address</strong></p>
+                            <p>2220 8th St<br>Meridian, MS 39301</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🕐</span>
+                        <div>
+                            <p><strong>Hours</strong></p>
+                            <p>Mon-Fri: 10 AM - 7 PM<br>Sat: 10 AM - 8 PM<br>Sun: 12 PM - 5 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📞</span>
+                        <div>
+                            <p><strong>Phone</strong></p>
+                            <p>(601) 485-1363</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">✉️</span>
+                        <div>
+                            <p><strong>Email</strong></p>
+                            <p>info@meridianundergroundmusic.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <p>🗺️ Google Maps Integration</p>
+                            <p>Interactive map would display here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-block">
+                    <h2>Send a Message</h2>
+                    <p>Questions about inventory? Want to book an event? Drop us a line.</p>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option>General Question</option>
+                                <option>Product Inquiry</option>
+                                <option>Event Booking</option>
+                                <option>Trade-in Appraisal</option>
+                                <option>Lesson Sign-up</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                    <p class="form-note">Note: This is a demo contact form. In production, this would connect to Formspree, Netlify Forms, or your email service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-section">
+        <div class="container">
+            <h2>Follow Us</h2>
+            <div class="social-links">
+                <a href="#" class="social-link">📘 Facebook</a>
+                <a href="#" class="social-link">📸 Instagram</a>
+                <a href="#" class="social-link">🐦 Twitter/X</a>
+                <a href="#" class="social-link">🎵 TikTok</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section developer-cta">
+        <div class="container">
+            <h2>Want a Site Like This?</h2>
+            <p class="lead">This demo was built in one afternoon to showcase what's possible.</p>
+            <p class="highlight">Imagine what we could do together with full customization.</p>
+            
+            <div class="developer-contact">
+                <h3>Contact the Developer</h3>
+                <div class="contact-cards">
+                    <a href="tel:718-541-0794" class="contact-card-large">
+                        <span class="big-icon">📞</span>
+                        <span class="contact-label">Call</span>
+                        <span class="contact-detail">(718) 541-0794</span>
+                    </a>
+                    <a href="mailto:Necolious23@gmail.com" class="contact-card-large">
+                        <span class="big-icon">✉️</span>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-detail">Necolious23@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/necolious-shaw-442873396/" target="_blank" class="contact-card-large">
+                        <span class="big-icon">💼</span>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-detail">Necolious Shaw</span>
+                    </a>
+                    <a href="https://necoliouss.github.io/NecoliousShaw-portfolio/" target="_blank" class="contact-card-large">
+                        <span class="big-icon">🎨</span>
+                        <span class="contact-label">Portfolio</span>
+                        <span class="contact-detail">View My Work</span>
+                    </a>
+                    <a href="https://github.com/necoliouss" target="_blank" class="contact-card-large">
+                        <span class="big-icon">💻</span>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-detail">@necoliouss</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Meridian Underground Music Demo. Built by Necolious Shaw.</p>
+            <p class="location">📍 2220 8th St, Meridian, MS 39301</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+        
+        // Demo form handler
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Demo form submitted! In production, this would send to Formspree or similar service.');
+        });
+    </script>
+</body>
+</html>
