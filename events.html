@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Meridian Underground Music</title>
+    <meta name="description" content="Live music, album releases, and community events at Meridian Underground Music.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">MUM</a>
+            <button class="nav-toggle" onclick="toggleNav()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="videos.html">Media</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="offers.html">Deals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Events & Happenings</h1>
+            <p>Live music, signings, and community gatherings</p>
+        </div>
+    </header>
+
+    <section class="events-section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            
+            <div class="event-card featured">
+                <div class="event-date">
+                    <span class="month">APR</span>
+                    <span class="day">25</span>
+                </div>
+                <div class="event-details">
+                    <h3>Record Store Day 2026</h3>
+                    <p class="time">🕐 9:00 AM - 8:00 PM</p>
+                    <p class="description">Our biggest event of the year! Exclusive vinyl releases, live DJ sets, free coffee, and 20% off all used records. Line starts at 8 AM.</p>
+                    <span class="tag">Special Event</span>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="month">MAY</span>
+                    <span class="day">02</span>
+                </div>
+                <div class="event-details">
+                    <h3>Acoustic Open Mic Night</h3>
+                    <p class="time">🕐 7:00 PM - 10:00 PM</p>
+                    <p class="description">Bring your guitar and your voice. All skill levels welcome. Sign up starts at 6:30 PM.</p>
+                    <span class="tag">Weekly</span>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="month">MAY</span>
+                    <span class="day">09</span>
+                </div>
+                <div class="event-details">
+                    <h3>Local Band Showcase: The Valley</h3>
+                    <p class="time">🕐 8:00 PM - 11:00 PM</p>
+                    <p class="description">Meridian's own indie rockers celebrate their new EP release. Free admission, all ages.</p>
+                    <span class="tag">Live Music</span>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="month">MAY</span>
+                    <span class="day">16</span>
+                </div>
+                <div class="event-details">
+                    <h3>Guitar Setup Workshop</h3>
+                    <p class="time">🕐 2:00 PM - 4:00 PM</p>
+                    <p class="description">Learn to change strings, adjust action, and maintain your instrument. $25 includes string set.</p>
+                    <span class="tag">Workshop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="host-event">
+        <div class="container">
+            <h2>Want to Host an Event?</h2>
+            <p>We partner with local artists, labels, and organizations for in-store performances, signings, and listening parties.</p>
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>This Demo Was Built in One Afternoon</h2>
+            <p class="highlight">Imagine what we could do together.</p>
+            <div class="contact-info-footer">
+                <a href="tel:718-541-0794" class="contact-item">📞 (718) 541-0794</a>
+                <a href="mailto:Necolious23@gmail.com" class="contact-item">✉️ Necolious23@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Meridian Underground Music Demo. Built by Necolious Shaw.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
