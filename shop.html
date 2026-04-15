@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Meridian Underground Music</title>
+    <meta name="description" content="Shop vinyl records, guitars, and music accessories at Meridian Underground Music.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">MUM</a>
+            <button class="nav-toggle" onclick="toggleNav()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="videos.html">Media</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="offers.html">Deals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>The Shop</h1>
+            <p>Vinyl, guitars, and everything in between</p>
+        </div>
+    </header>
+
+    <section class="shop-categories">
+        <div class="container">
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">💿</div>
+                    <h3>Vinyl Records</h3>
+                    <p>New releases and vintage classics. Rock, hip-hop, jazz, blues, and local Mississippi artists.</p>
+                    <span class="price-range">$15 - $50</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎸</div>
+                    <h3>Guitars</h3>
+                    <p>Electric, acoustic, and bass guitars. Fender, Gibson, Martin, and local luthiers.</p>
+                    <span class="price-range">$200 - $2000+</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🥁</div>
+                    <h3>Drums & Percussion</h3>
+                    <p>Full kits, cymbals, and hand percussion for every style.</p>
+                    <span class="price-range">$100 - $1500</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎧</div>
+                    <h3>Accessories</h3>
+                    <p>Strings, cables, tuners, picks, record cleaning kits, and turntables.</p>
+                    <span class="price-range">$5 - $300</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">👕</div>
+                    <h3>Merch</h3>
+                    <p>Band tees, hoodies, posters, and MUM branded gear.</p>
+                    <span class="price-range">$20 - $45</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📀</div>
+                    <h3>Used & Rare</h3>
+                    <p>Trade-ins, collectibles, and limited editions. Always changing inventory.</p>
+                    <span class="price-range">Varies</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-items">
+        <div class="container">
+            <h2>Just Arrived</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image placeholder-img">[Album Art]</div>
+                    <h4>Led Zeppelin IV</h4>
+                    <p class="product-type">180g Vinyl Reissue</p>
+                    <p class="price">$28.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image placeholder-img">[Guitar]</div>
+                    <h4>Fender Player Strat</h4>
+                    <p class="product-type">Electric Guitar</p>
+                    <p class="price">$849.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image placeholder-img">[Local]</div>
+                    <h4>Mississippi Blues Comp</h4>
+                    <p class="product-type">Local Artists Vinyl</p>
+                    <p class="price">$22.00</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image placeholder-img">[Accessory]</div>
+                    <h4>Audio-Technica LP60X</h4>
+                    <p class="product-type">Turntable</p>
+                    <p class="price">$149.99</p>
+                </div>
+            </div>
+            <div class="shop-note">
+                <p>💡 <strong>Full e-commerce coming soon.</strong> Currently accepting orders via phone or in-store. This demo showcases the layout and design capabilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>This Demo Was Built in One Afternoon</h2>
+            <p class="highlight">Imagine what we could do together.</p>
+            <div class="contact-info-footer">
+                <a href="tel:718-541-0794" class="contact-item">📞 (718) 541-0794</a>
+                <a href="mailto:Necolious23@gmail.com" class="contact-item">✉️ Necolious23@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Meridian Underground Music Demo. Built by Necolious Shaw.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
