@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Meridian Underground Music</title>
+    <meta name="description" content="Music news, staff picks, and local scene updates from Meridian Underground Music.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">MUM</a>
+            <button class="nav-toggle" onclick="toggleNav()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="videos.html">Media</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="offers.html">Deals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>The Blog</h1>
+            <p>Staff picks, local news, and vinyl culture</p>
+        </div>
+    </header>
+
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-grid">
+                <article class="blog-card featured-post">
+                    <div class="blog-image placeholder-img">[Album Cover]</div>
+                    <div class="blog-content">
+                        <span class="category">Staff Pick</span>
+                        <h2>Top 10 Mississippi Blues Records You Need to Own</h2>
+                        <p class="excerpt">From Robert Johnson to modern Mississippi blues rock, these albums define the genre and belong in every collection...</p>
+                        <div class="meta">April 10, 2026 • 5 min read</div>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="category">Store News</span>
+                        <h3>Just In: 500 New Used Vinyl Records</h3>
+                        <p class="excerpt">We just acquired an incredible classic rock and jazz collection. Here's what's hitting the shelves this week...</p>
+                        <div class="meta">April 8, 2026</div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="category">Gear Guide</span>
+                        <h3>Beginner's Guide to Turntables</h3>
+                        <p class="excerpt">Don't buy a Crosley. Here's what to look for in your first record player, from budget to audiophile...</p>
+                        <div class="meta">April 5, 2026</div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="category">Local Scene</span>
+                        <h3>Interview: The Valley Talks New EP</h3>
+                        <p class="excerpt">We sat down with Meridian's favorite indie rockers ahead of their release show at the shop...</p>
+                        <div class="meta">April 1, 2026</div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="category">Maintenance</span>
+                        <h3>How to Clean Your Vinyl Collection</h3>
+                        <p class="excerpt">Proper cleaning extends record life and improves sound quality. Here's our step-by-step guide...</p>
+                        <div class="meta">March 28, 2026</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>This Demo Was Built in One Afternoon</h2>
+            <p class="highlight">Imagine what we could do together.</p>
+            <div class="contact-info-footer">
+                <a href="tel:718-541-0794" class="contact-item">📞 (718) 541-0794</a>
+                <a href="mailto:Necolious23@gmail.com" class="contact-item">✉️ Necolious23@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Meridian Underground Music Demo. Built by Necolious Shaw.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
